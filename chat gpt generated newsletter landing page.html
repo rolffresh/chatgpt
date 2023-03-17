@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fresh van Root Newsletter</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("https://freshvanroot.com/wp-content/uploads/2023/03/bg-gradient.png");
+        background-size: cover;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+      }
+      .left-column {
+        width: 60%;
+        padding: 50px;
+        font-family: "Poppins", sans-serif;
+      }
+   .right-column {
+  width: 40%;
+  background-image: url("https://images.unsplash.com/photo-1596199736394-f1c2124a9edd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+      h1 {
+        font-size: 36px;
+        margin-top: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+      }
+      h2 {
+        font-size: 24px;
+        margin-top: 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+      }
+      form {
+        margin-top: 20px;
+      }
+      input[type="text"], input[type="email"], input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+      }
+      input[type="submit"] {
+        background-color: #3f51b5;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      input[type="submit"]:hover {
+        background-color: #2c3e50;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+      }
+  .testimonial-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.testimonial {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Responsive styles */
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+  .right-column {
+    height: 250px; /* Adjust the height value according to your preference */
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonial {
+    width: 100%;
+    max-width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-column">
+        <h1>Fresh van Root Newsletter</h1>
+        <h2>Open-minded marketers, entrepreneurs, and creators of all kinds stay on top of the latest trends, apps, and tools.</h2>
+        <form>
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <input type="submit" value="Subscribe">
+        </form>
+        <p>Across social, productivity, marketing, design.</p>
+        <ul>
+          <li>Tested apps/tool recommendations</li>
+          <li>Hand-picked content tips for reading
+</li>
+          <li>Insightful interviews with experts</li>
+          <li>Exclusive deals and discounts</li>
+        </ul>
+      </div>
+      
+      <div class="right-column"></div>
+      
+    </div>
+    
+<div class="testimonial-container">
+  <div class="testimonial">
+    <p>I always turn to the Fresh van Root newsletter first to stay informed about marketing and content creation. It's full of great tools, recommendations, and reading materials.</p>
+  </div>
+  <div class="testimonial">
+    <p>Among my many newsletter subscriptions, Rolf’s is always the first one I read. It has a great signal-to-noise ratio and I’ve learned something interesting in every edition.</p>
+  </div>
+  <div class="testimonial">
+    <p>Discovering what's really going on in the digital world is not easy given the vast amount of sources available. Rolf's newsletter is a great part of my ongoing research.</p>
+  </div>
+</div>
+
+  </body>
+</html>
